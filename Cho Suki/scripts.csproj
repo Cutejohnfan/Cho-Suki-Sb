@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Output</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FED70CF-82ED-4096-AAC0-09FF8BF1C1A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>\</AppDesignerFolder>
+    <RootNamespace>storyboard</RootNamespace>
+    <AssemblyName>storyboard</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Output|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>\</OutputPath>
+    <IntermediateOutputPath>..\..\cache\obj</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK">
+      <HintPath>..\..\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="StorybrewCommon">
+      <HintPath>..\..\StorybrewCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="GlowyStuff.cs" />
+    <Compile Include="Lyrica.cs" />
+    <Compile Include="ObjectHit.cs" />
+    <Compile Include="Oh.cs" />
+    <Compile Include="Particla.cs" />
+    <Compile Include="Particla2.cs" />
+    <Compile Include="Particla4.cs" />
+    <Compile Include="ParticlaSpecial.cs" />
+    <Compile Include="Particles.cs" />
+    <Compile Include="ParticleZ.cs" />
+    <Compile Include="Scene.cs" />
+    <Compile Include="Transition0.cs" />
+    <Compile Include="aundyreqeuest - Copy/GlowyStuff.cs" />
+    <Compile Include="aundyreqeuest - Copy/Lyrica.cs" />
+    <Compile Include="aundyreqeuest - Copy/ObjectHit.cs" />
+    <Compile Include="aundyreqeuest - Copy/Oh.cs" />
+    <Compile Include="aundyreqeuest - Copy/Particla.cs" />
+    <Compile Include="aundyreqeuest - Copy/Particla2.cs" />
+    <Compile Include="aundyreqeuest - Copy/Particla4.cs" />
+    <Compile Include="aundyreqeuest - Copy/ParticlaSpecial.cs" />
+    <Compile Include="aundyreqeuest - Copy/Particles.cs" />
+    <Compile Include="aundyreqeuest - Copy/ParticleZ.cs" />
+    <Compile Include="aundyreqeuest - Copy/Scene.cs" />
+    <Compile Include="aundyreqeuest - Copy/Transition0.cs" />
+    <Compile Include="RevertBackIfArmageddon/GlowyStuff (2).cs" />
+    <Compile Include="RevertBackIfArmageddon/Particla - Copy.cs" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
